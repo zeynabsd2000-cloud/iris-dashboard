@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Load dataset
-df = pd.read_csv("data/iris_dataset.csv")
+df = pd.read_csv("iris_dataset.csv")
 
 # Assign column names
 df.columns = [
